@@ -1,0 +1,15 @@
+const objetos = [
+    {nome: 'objeto1', valor: 10 },
+    {nome: 'objeto2', valor: 20 },
+    {nome: 'objeto3', valor: 30 },
+    {nome: 'objeto4', valor: 40 }
+];
+
+// gere um índice aleatório
+const indiceAleatorio = Math.floor(Math.random() * objetos.length);
+
+// acesse o objeto no índice aleatório
+const objetoSorteado = objetos[indiceAleatorio];
+
+console.log(objetoSorteado);
+  
